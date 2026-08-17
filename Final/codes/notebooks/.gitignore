@@ -1,0 +1,11 @@
+.venv/
+.env
+.ipynb_checkpoints/
+__pycache__/
+.cache/
+.ipython/
+.jupyter/
+.jupyter_data/
+.jupyter_runtime/
+.mplconfig/
+.DS_Store

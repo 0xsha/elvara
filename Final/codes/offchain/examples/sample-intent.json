@@ -1,0 +1,99 @@
+{
+  "asOf": "2025-12-03",
+  "assets": [
+    {
+      "address": "0x0000000000000000000000000000000000000001",
+      "name": "Gold",
+      "targetBps": 1540,
+      "ticker": "GLD",
+      "weight": 0.154
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000002",
+      "name": "Silver",
+      "targetBps": 500,
+      "ticker": "SLV",
+      "weight": 0.05
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000003",
+      "name": "Oil",
+      "targetBps": 1180,
+      "ticker": "USO",
+      "weight": 0.118
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000004",
+      "name": "REIT",
+      "targetBps": 500,
+      "ticker": "VNQ",
+      "weight": 0.05
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000005",
+      "name": "Treasury",
+      "targetBps": 500,
+      "ticker": "TLT",
+      "weight": 0.05
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000006",
+      "name": "EnergyInfra",
+      "targetBps": 3290,
+      "ticker": "AMLP",
+      "weight": 0.329
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000007",
+      "name": "Agri",
+      "targetBps": 2490,
+      "ticker": "DBA",
+      "weight": 0.249
+    }
+  ],
+  "createdAt": "2026-03-24T00:00:00+00:00",
+  "epoch": 1,
+  "expiry": 1893456000,
+  "extra": {
+    "maxWeight": 0.35,
+    "minWeight": 0.05,
+    "transactionCostBps": 10
+  },
+  "intentHash": "0xe4e085caaa6604a1a7c0c8c281deeec34ef4fc9fbccc822a2c392c93449da3d7",
+  "intentVersion": "1.0.0",
+  "metadataHash": "0x741c4cf27280d044efb7277b79a579735f4d9b39ebb0e2e3e8a6e3b3c5b90d7d",
+  "metrics": {
+    "annualizedMean": null,
+    "costDrag": 0.0023,
+    "fallbackCount": 0,
+    "finalValue": 1637033.0,
+    "maxDrawdown": 0.097,
+    "maxLoss": 142319.0,
+    "rebalances": 11,
+    "sharpe": 1.18,
+    "sortino": 1.66,
+    "totalReturn": 0.637
+  },
+  "sourceMode": "sample",
+  "sourceWindow": {
+    "endDate": "2026-03-03",
+    "minTrainDays": 504,
+    "oosEnd": "2025-12-03",
+    "oosStart": "2023-03-02",
+    "startDate": "2021-03-01",
+    "stepDays": 63,
+    "testDays": 63
+  },
+  "strategy": "CVaR",
+  "targetBps": [
+    1540,
+    500,
+    1180,
+    500,
+    500,
+    3290,
+    2490
+  ],
+  "weightsHash": "0x412fde50351fa8309e2390c8397ba572dfe6c8f4a6142429c2e6f8d4a44a12b1",
+  "weightsMode": "avg"
+}
